@@ -57,8 +57,11 @@ Total Weekly Fares By City Type
 
 <img src="https://github.com/berndab/pyber_analysis/blob/master/analysis/Chart.Weekly_Total_Fares.png" width="800" height="250" />
 
-### Analysis Summary
+### Summary
 
+The goal of this market analysis is to provide information to PyBer management so they can implement policies to to improve access to ride sharing services and to determine affordability for underserved neighborhoods per the goal of this project.
+
+The data clearly shows that urban rides make up the vast majority of the ride-shares provided by the PyBer and that urban rides. In addition, the data shows that the average ride costs are lowest in urban cities.
 
 
 ## Challenges Encountered and Overcome
