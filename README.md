@@ -8,6 +8,10 @@
 
 ### Results
 
+<img src="https://github.com/berndab/pyber_analysis/blob/master/analysis/Table.Summary.png" width="760" height="225" />
+
+<img src="https://github.com/berndab/pyber_analysis/blob/master/analysis/Chart.Weekly_Total_Fares.png" width="800" height="250" />
+
 ### Summary
 
 ## Challenges Encountered and Overcome
