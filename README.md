@@ -4,6 +4,15 @@
 
 ### Purpose
 
+The purpose of this project is to analyze ride data from the cities that PyBer has, so far, provided it's ride-sharing services in and to generate market analysis data aggregated by the type of city where each ride took place in. Each city where a PyBer ride took place is assigned one of the following city types:
+
+* Urban
+* Suburban
+* Rural
+
+PyBer management will use this market analysis data to improve access to ride sharing services and to determine affordability for underserved neighborhoods.
+
+
 ### Technical Analysis
 
 ### Results
