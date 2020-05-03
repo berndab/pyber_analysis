@@ -61,7 +61,10 @@ Total Weekly Fares By City Type
 
 The goal of this market analysis is to provide information to PyBer management so they can implement policies to to improve access to ride sharing services and to determine affordability for underserved neighborhoods per the goal of this project.
 
-The data clearly shows that urban rides make up the vast majority of the ride-shares provided by the PyBer and that urban rides. In addition, the data shows that the average ride costs are lowest in urban cities. The number of rides drops significantly the farther out from the city you go. The total munber of ride provided to suburban cities is almost 2000 less than the rides provided to urban customers a drop of almost 80%. Furthermore, the number of rides PyBer provides to rural setting is 97% than the rides provided to unban cities. The aversge fare per ride data shows that the average of a suburban ride is 25% higher than an urban ride and that the average cost of a rural ride is 58% higher than an urban ride.
+The data clearly shows that urban rides make up the vast majority of the ride-shares provided by the PyBer. In addition, the data shows that the number of ride decreases significantly and the average ride costs increase significantly as the ride location goes from urban an suburban and from suburban to rural. The total munber of ride provided to suburban cities is 80% less than the rides provided to urban customers while the number of rides provided to rural cities is 97% than the rides provided to urban cities. Forthermore, the average cost of a suburban ride is 25% higher than an urban ride and the average cost of a rural ride is 58% higher than an urban ride.
+Clealy, the analysis data shows that the suburban and rural markets are PyBer's most underserved regions and least affordable.
+
+
 
 
 ## Challenges Encountered and Overcome
