@@ -1,14 +1,65 @@
 # PyBer Analysis Report
 
+|      Type         |             Name                |             Description            |
+--------------------|---------------------------------|------------------------------------|
+| Program Language  | Python 3.7.7                    |                                    |
+| APIs and Modules  | Anaconda 4.8.3                  |                                    |
+|                   | Pandas 1.0.3                    |                                    |
+|                   | Matplotlib 3.1.3                |                                    |
+| Data Sources      | resources/scity_data.csv        |                                    |
+|                   | resources/ride_data.csv         |                                    |
+| Programming Tools | Jupyter Notebook                |                                    |
+| Application Files | PyBer_Analysis.ipynb            | PyBer ride share data analysis     |
+
 ## Background and Results
 
 ### Purpose
 
+The purpose of this project is to analyze ride data from the cities that PyBer has, so far, provided it's ride-sharing services in and to generate market analysis data aggregated by the type of city where each ride took place in. Each city where a PyBer ride took place is assigned one of the following city types:
+
+* Urban
+* Suburban
+* Rural
+
+PyBer management will use this market analysis data to improve access to ride sharing services and to determine affordability for underserved neighborhoods.
+
 ### Technical Analysis
+
+This analysis utilized Pyber ride-sharing data for the months of January to April of 2019. The ride sharing data for this period consisted of two data sets
+
+Ride Data
+* Date of the ride
+* City where the ride occured
+* Total fare
+* Ride Id - unique ride identifier
+
+City Data
+* City name
+* City type
+* Number of PyBer drivers
+
+The application to generate this analysis data was created using Jupyter Notebook, Python, Python Pandas API, and Matplotlib API
+
+The Jupyter Notebook application geerated the following analysis data:
+
+Ride Summary Data
+* Total Rides
+* Total Drivers
+* Total Fares
+* Average Fare 
+* Average Fare per Driver
+
+Total Weekly Fares By City Type
 
 ### Results
 
-### Summary
+<img src="https://github.com/berndab/pyber_analysis/blob/master/analysis/Table.Summary.png" width="760" height="225" />
+
+<img src="https://github.com/berndab/pyber_analysis/blob/master/analysis/Chart.Weekly_Total_Fares.png" width="800" height="250" />
+
+### Analysis Summary
+
+
 
 ## Challenges Encountered and Overcome
 
