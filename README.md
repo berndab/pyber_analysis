@@ -81,7 +81,30 @@ If we assume that the average distance to an urban destination is much shorter t
 
 ### Challenges and Difficulties Encountered
 
-### Technical Analyses Used
+The total driver count per city type data is supposed to be generate from the merged data frame per the challenge instructions. However, the merged data frame has duplicate data.
+
+Each row in the merged data frame contains these data field:
+* City - the name that the ride occurred in
+* Date - the ride occurred on
+* Fare – the total paid by the customer for the ride
+* City Type – the type of the city the ride occurred in
+* No. Drivers - the total number of drivers in the 'City' the ride took place in. 
+
+The value is the same for each row that occurred in the same city. To use the merged data frame to get the number of drivers per city type, the data frame would have to be filtered to create a new data frame with the unique values of the following columns:
+* City
+* City Type
+* No. Drivers
+
+Then the following methods would have to be called on the unique values data frame.
+
+The method
+* .grouped('City Type')
+and the method
+ * .sum()
+to get the total number of drivers per city type.
+
+But the data frame created from the city_data.cvs file already contains this data!  It is highly inefficient to expend CPU resources to create a unique frame from a much larger merged data frame when the data already exists!!!  To maintain the efficiency of the analysis code, the total drivers per city type information was generated from the existing data frame containing data from the city_data.cvs file. 
+
 
 ## Recommendations and Next Steps
 
@@ -89,10 +112,13 @@ If we assume that the average distance to an urban destination is much shorter t
 
 ### Additional Analysis 1
 
-All future individual ride data provided for analysis should contain ride distances. This is needed to accuratly determine the factors the lead having higher avarage trip costs in the underserved and less affordable suburban and rural city types
+All future individual ride data provided for analysis should contain ride distances and the GPS locations of the ride start point and hte ride termination point. This is needed to accuratly determine the factors that lead to higher avarage trip costs in the underserved and less affordable suburban and rural cities, such as longer ride distances. The data then can be used to to model different graduated fee structures for rides of longer distances to make using PyBer more attractive to suburban and rural customes.
 
-### Additional Analysis 2
+The smartphone apps used by the drivers can be updated to capture this information and send it to the PyBer servers at the end of the ride.
 
-* Description of Approach
+### AdThe smartphone apps used by the drivers can be updated to capture this information and send it to the PyBer servers at the end of the ride.ditional Analysis 2
 
-* Technical Steps
+Also, the PyBer client app should be updated to give the customer a list of reason to check as to why chose to usen Pyber for this yrip instead of driving themselves to the destination. This will allow the data science team to get more detail information the reasons the urban, suburban, and rural customers choose to use PhBer. This data can be used create additional programs to make PhBer more affordable and attractive to use in the underserved cities. 
+The smartphone apps used by the drivers can be updated to capture this information and send it to the PyBer servers at the end of the ride.
+
+The smartphone apps used by the customer can be updated to capture this information and send it to the PyBer servers at the end of the ride.
