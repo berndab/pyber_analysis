@@ -81,7 +81,7 @@ To attract more riders in the underserved and more costly suburban and rural mar
 
 ### Challenges and Difficulties Encountered
 
-The total driver count per city type data was supposed to be generate from the merged data frame per the challenge instructions. However, the merged data frame has duplicate city total drivers information
+The total driver count per city type data was supposed to be generated from the merged data frame per the challenge instructions. However, the merged data frame has duplicate city total drivers information
 
 Each row in the merged data frame contains these data fields:
 * City - the name that the ride occurred in
