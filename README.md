@@ -6,7 +6,7 @@
 | APIs and Modules  | Anaconda 4.8.3                  |                                    |
 |                   | Pandas 1.0.3                    |                                    |
 |                   | Matplotlib 3.1.3                |                                    |
-| Data Sources      | resources/scity_data.csv        |                                    |
+| Data Sources      | resources/city_data.csv        |                                    |
 |                   | resources/ride_data.csv         |                                    |
 | Programming Tools | Jupyter Notebook                |                                    |
 | Application Files | PyBer_Analysis.ipynb            | PyBer ride share data analysis     |
@@ -53,31 +53,6 @@ Total Weekly Fares By City Type
 
 
 ### Results
-This analysis utilized Pyber ride-sharing data for the months of January to April of 2019. The ride sharing data for this period consisted of two data sets:
-
-Ride Data
-* Date of the ride
-* City where the ride occured
-* Total fare
-* Ride Id - unique ride identifier
-
-City Data
-* City name
-* City type
-* Number of PyBer drivers
-
-The application to generate this analysis data was created using Jupyter Notebook, Python, Python Pandas API, and Matplotlib API
-
-The Jupyter Notebook application generated the following analysis data:
-
-Ride Summary Data
-* Total Rides
-* Total Drivers
-* Total Fares
-* Average Fare 
-* Average Fare per Driver
-
-Total Weekly Fares By City Type
 
 <img src="https://github.com/berndab/pyber_analysis/blob/master/analysis/Table.Summary.png" width="760" height="225" />
 
