@@ -1,12 +1,12 @@
 # PyBer Analysis Report
 
-|      Type         |             Name                |             Description            |
+|      Type         |             Name                |             Description            | 
 --------------------|---------------------------------|------------------------------------|
 | Program Language  | Python 3.7.7                    |                                    |
 | APIs and Modules  | Anaconda 4.8.3                  |                                    |
 |                   | Pandas 1.0.3                    |                                    |
 |                   | Matplotlib 3.1.3                |                                    |
-| Data Sources      | resources/city_data.csv        |                                    |
+| Data Sources      | resources/city_data.csv         |                                    |
 |                   | resources/ride_data.csv         |                                    |
 | Programming Tools | Jupyter Notebook                |                                    |
 | Application Files | PyBer_Analysis.ipynb            | PyBer ride share data analysis     |
@@ -62,12 +62,20 @@ Total Weekly Fares By City Type
 
 The goal of this market analysis is to provide information to PyBer management so they can implement policies to improve access to ride sharing services and to improved affordability for underserved neighborhoods.
 
-The data clearly shows that urban rides make up most of the ride provided by the PyBer. In addition, the data shows that the number of rides decrease and the average ride costs increases significantly as the ride location goes from an urban to a suburban setting and from a suburban to a rural setting. The total number of rides decrease by 80% going from an urban to a suburban setting and by 97% when going from an urban to a rural setting.  Furthermore, the average cost of a suburban ride is 25% higher and the average cost of a rural ride is 58% higher than an urban ride. Clearly, the analysis data shows that the suburban and rural cities are PyBer's most underserved and least affordable regions.
-It should be expected that the number of rides decreases the farther out the rides occur from major city centers. This decrease can be attributed to the smaller population density of suburban and rural cities and more conducive these cities are to the use of personal automobiles for transportation. However, a 80% plus difference in total rides is too large a magnitude to be solely attributed to these two factors. The higher average cost of PyBer rides in suburban and rural setting must also strongly contribute to PyBer’s low ridership in these cities. 
 
-Transportation and parking cost should also be considered when explaining the ridership difference. The scarcity and cost of parking at urban destinations as opposed to the availability of free parking at the typical suburban and rural destination significantly contributes this ridership difference. In urban settings, free parking is much less available, and the cost of paid parking is usually based on time. Depending on the urban destination and the time that a PyBer customer spends there, the parking costs in a significant number of instances would exceed the average cost of a urban PyBer ride. That means that PyBer is attractive to urban customers because in many instances it offers a cost saving over driving.  
-If we assume that the average distance to an urban destination is shorter than the average distance to a suburban or rural destination, the fuel cost of driving to an urban destination is negligible compared to the parking cost. These shorter distances keep the cost of using PyBer low for urban rides. Thus, the parking cost saving is the cost advantage of using PyBer in urban cities. However, for suburban and rural trips with the longer distances to destinations and the availability of ample free parking, there is a cost disadvantage to using PyBer. Because of free parking, it is usually cheaper to drive to suburban and rural destinations. However, the ride data provided does not include trip length, so there is no data available to test these assumptions. 
-In order to attract more riders in the underserved and more costly suburban and rural markets, PyBer must explore using a different cost model in these regions.  Given that currently the longer rides cost more and make driving the less expensive alternative for suburban and rural customers, PyBer must look at creating a graduated cost model. In the model,  the per mile costs of a ride are reduced when a ride exceed and preset length threshold. For instance, all trip miles over 15 have a reduced rate per mile.  This would attract more riders in suburban and rural areas due to marginally lower costs.
+The data clearly shows that urban rides make up most of the rides provided by the PyBer. In addition, the data shows that rides decrease and the average costs increases significantly as the ride location goes from an urban to a suburban to a rural setting. The rides decrease by 80% going from an urban to a suburban setting and by 97% when going from an urban to a rural setting. Furthermore, the average cost of a suburban ride is 25% higher and the average cost of a rural ride is 58% higher than an urban ride. Clearly, the data shows that the suburban and rural cities are PyBer's most underserved and least affordable regions.
+
+
+It should be expected that the number of rides decreases the farther out the rides occur from major city centers. This decrease can be attributed to the smaller population density of suburban and rural cities and to these cities being more conducive to the use of personal automobiles for transportation. However, a 80% plus difference in total rides is too large a magnitude to be solely attributed to these two factors. The higher average cost of PyBer rides in suburban and rural setting must also strongly contribute to PyBer’s low ridership in these cities.
+
+Transportation and parking cost should also be considered when explaining the ridership difference. The scarcity and cost of parking at urban destinations as opposed to the availability of free parking at the typical suburban and rural destination significantly contributes this ridership difference. In urban settings, free parking is much less available, and the cost of paid parking is usually based on time. Depending on the urban destination and the time that a PyBer customer spends there, the parking costs in a significant number of instances would exceed the average cost of a urban PyBer ride. That means that PyBer is attractive to urban customers because in many instances it offers a cost saving over driving.
+
+
+If we assume that the average distance to an urban destination is shorter than the average distance to a suburban or rural destination, the fuel cost of driving to an urban destination is negligible compared to the parking cost. These shorter distances keep the cost of using PyBer low for urban rides. Thus, the parking cost saving is the cost advantage of using PyBer in urban cities. However, for suburban and rural trips with the longer distances to destinations and the availability of ample free parking, there is a cost disadvantage to using PyBer. Because of free parking, it is usually cheaper to drive to suburban and rural destinations. However, the ride data provided does not include trip length, so there is no data available to test these assumptions.
+
+
+To attract more riders in the underserved and more costly suburban and rural markets, PyBer must explore using a different cost model in these regions.  Given that currently the longer rides cost more and make driving the less expensive alternative for suburban and rural customers, PyBer must look at creating a graduated cost model. In the model, the per mile costs of a ride are reduced when a ride exceed and preset length threshold. For instance, all trip miles over 15 have a reduced rate per mile.  This would attract more riders in suburban and rural areas due to marginally lower costs.
+
 
 ## Challenges Encountered and Overcome
 
