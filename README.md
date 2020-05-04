@@ -68,7 +68,7 @@ The data clearly shows that urban rides make up most of the rides provided by th
 
 It should be expected that the number of rides decreases the farther out the rides occur from major city centers. This decrease can be attributed to the smaller population density of suburban and rural cities and to these cities being more conducive to the use of personal automobiles for transportation. However, a 80% plus difference in total rides is too large a magnitude to be solely attributed to these two factors. The higher average cost of PyBer rides in suburban and rural setting must also strongly contribute to PyBer’s low ridership in these cities.
 
-Transportation and parking cost should also be considered when explaining the ridership difference. The scarcity and cost of parking at urban destinations as opposed to the availability of free parking at the typical suburban and rural destination significantly contributes this ridership difference. In urban settings, free parking is much less available, and the cost of paid parking is usually based on time. Depending on the urban destination and the time that a PyBer customer spends there, the parking costs in a significant number of instances would exceed the average cost of a urban PyBer ride. That means that PyBer is attractive to urban customers because in many instances it offers a cost saving over driving.
+Transportation and parking cost should also be considered when explaining the ridership difference. The scarcity and cost of parking at urban destinations as opposed to the availability of free parking at the typical suburban and rural destination. also significantly contributes to this ridership difference. In urban settings, free parking is much less available, and the cost of paid parking is usually based on time. Depending on the urban destination and the time that a PyBer customer spends there, the parking costs in a significant number of instances would exceed the average cost of a urban PyBer ride. That means that PyBer is attractive to urban customers because, in many instances, it offers a cost saving over driving.
 
 
 If we assume that the average distance to an urban destination is shorter than the average distance to a suburban or rural destination, the fuel cost of driving to an urban destination is negligible compared to the parking cost. These shorter distances keep the cost of using PyBer low for urban rides. Thus, the parking cost saving is the cost advantage of using PyBer in urban cities. However, for suburban and rural trips with the longer distances to destinations and the availability of ample free parking, there is a cost disadvantage to using PyBer. Because of free parking, it is usually cheaper to drive to suburban and rural destinations. However, the ride data provided does not include trip length, so there is no data available to test these assumptions.
@@ -81,7 +81,7 @@ To attract more riders in the underserved and more costly suburban and rural mar
 
 ### Challenges and Difficulties Encountered
 
-The total driver count per city type data was supposed to be generate from the merged data frame per the challenge instructions. However, the merged data frame has duplicate data.
+The total driver count per city type data was supposed to be generate from the merged data frame per the challenge instructions. However, the merged data frame has duplicate city total drivers information
 
 Each row in the merged data frame contains these data fields:
 * City - the name that the ride occurred in
@@ -90,7 +90,7 @@ Each row in the merged data frame contains these data fields:
 * City Type – the type of the city the ride occurred in
 * No. Drivers - the total number of drivers in the 'City' the ride took place in. 
 
-The value for the No. Drivers field is the same for each row that occurred in the same city. To use the merged data frame to get the number of drivers per city type, the data frame would have to be filtered to create a new data frame with unique values of the following columns:
+The value for the No. Drivers field is the same for ride rows that occurred in the same city. To use the merged data frame to get the number of drivers per city type, the data frame would have to be filtered to create a new data frame with unique values of the following columns:
 * City
 * City Type
 * No. Drivers
@@ -112,12 +112,12 @@ But the data frame created from the city_data.cvs file already contains this dat
 
 ### Additional Analysis 1
 
-All future individual ride data provided for analysis should contain ride distances and the GPS locations of the ride start point and hte ride termination point. This is needed to accuratly determine the factors that lead to higher avarage trip costs in the underserved and less affordable suburban and rural cities, such as longer ride distances. The data then can be used to model different graduated fee structures for rides of longer distances to make using PyBer more attractive to suburban and rural customes.
+All future individual ride data provided for analysis should contain ride distances and the GPS locations of the ride start point and the ride termination point. This is needed to accurately determine the factors that lead to higher average trip costs in the suburban and rural cities, such as longer ride distances. The data then can be used to model different graduated fee structures for rides of longer distances to make using PyBer more attractive to suburban and rural customers.
 
 The smartphone apps used by the drivers can be updated to capture this information and send it to the PyBer servers at the end of the ride.
 
 ### Additional Analysis 2
 
-The PyBer client app should be updated to give the customer a list of reason to check as to why chose to use Pyber for this trip instead of driving themselves to the destination. This will allow the data science team to get more detail information about the reasons the urban, suburban, and rural customers choose to use PyBer. This data can be used create additional programs to make PyBer more affordable and attractive to use in the underserved cities.
+The PyBer client app should be updated to give the customer a list of reason to check as to why they chose to use PyBer for this trip instead of driving themselves. This will allow the data science team to get more detail information about the reasons the urban, suburban, and rural customers choose to use PyBer. This data can be used create additional programs to make PyBer more affordable and attractive to use in the underserved cities.
 
 The smartphone apps used by the customer can be updated to capture this information and send it to the PyBer servers at the end of the ride.
